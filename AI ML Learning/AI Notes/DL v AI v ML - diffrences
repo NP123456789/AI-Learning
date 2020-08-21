@@ -1,4 +1,25 @@
+Artificial Intelligence:
+
+Empowers computers to mimic human intelligence such as decision making, text processing and visual interpritation.
+AI is a broad field, this contains many sub fields such as machine learning, robotics and computer vision. 
+
+Machine Learning:
+
+Machine learning is a sub field of AI that allows for computers to improve at a task over a given period of time.
+Rule based systems can be classified as AI but this is not ML as it does not learn from experience. 
+
+Example:
+Machine learning Process: (1) selecting the model to train, (2) manually performing feature extraction
 
 Deep learning:
 
+This is a specialized field of Machine Learning that relies on training of Deep Artificial Neural Networks (ANNs)
+AMMs are infomation processing models, inspired by the human brain, that use large data sets.
+AAMs work by mathematically mimicking the human brain and connecting multiple “artificial” neurons in a multilayered fashion.
+The more hidden layers added to the network, the deeper the network gets.
 
+What differentiates deep learning from machine learning techniques is in their ability to extract features automatically as 
+illustrated in the following example:
+
+Deep Learning Process: (1) Select the architecture of the network, (2) features are automatically extracted by feeding in the training data 
+(such as images) along with the target class (label).
