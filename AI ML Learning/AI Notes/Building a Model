@@ -1,0 +1,39 @@
+Backwards Elimination
+
+Step 1: Select the significance level to stay in the model e.g SL = 0.05
+
+Step 2: Fit the full model with all possible predictors
+
+Step 3: Consider the predictor with the highest P-Value. If P > SL, go to step 4,  otherwise go to FIN
+
+Step 4: Remove the predictor
+
+Step 5: Fit the model without this variable(Recreate the model)
+
+Step 6: go refit the model and go back to step 3.
+
+
+
+Forward Selection
+
+Step 1: Select the significance level to enter in the model e.g SL = 0.05
+
+Step 2: Fit all simple regression models y ~ Xn Select the one with the lowest P-Value
+
+Step 3: Keep this variable and fit all possible models with one extra predictor added to the one(s) you already have. e.g. Admin is lowest P-Value. We make Admin Markating model and Admin R&D model
+
+Step 4: Consider the predictor with the lowest P-Value. If P < SL, then go to step 3, otherwise go to FIN. 
+
+Step 5: Finished model
+
+
+
+Bidirectional Elimination
+
+Step 1: Select the significance level to stay in the model e.g SL = 0.05
+
+Step 2: Perform the next step of Forward Selection (new variable must have P < SL top enter)
+
+Step 3: Perform ALL steps of backwards Elimination (old variable must have P < SL to stay). Move back to step 2
+
+Step 4: No new variable can enter and no old variable can exit.
